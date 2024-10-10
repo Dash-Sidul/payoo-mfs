@@ -4,7 +4,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     const pinNumber = document.getElementById('pin-number').value;
     // console.log(phoneNumber, pinNumber);
     if(phoneNumber === '01580657917' && pinNumber === '1626'){
-        window.location.href = '/home.html';
+        window.location.href = './home.html';
     }
     else{
         alert('failed to loging')
